@@ -1,0 +1,407 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .whitespace {
+    max-width: 1300px;
+    margin: 115px 0;
+    display: inline-block;
+    align-items: baseline;
+  }
+  
+  .logo {
+    max-width: 500px;
+    padding: 25px;
+  }
+
+  header {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+  }
+  
+  body {
+    background-color: #050505;
+  }
+  
+  footer {
+    background-color: #050505;
+  }
+
+  .tekstfooter {
+    text-align: center;
+    justify-content: space-between;
+    line-height: 75px;
+    display: block;
+    color: #fcfafa;
+    font-size: 35px;
+    font-weight: light;
+  }
+
+  .some {
+    max-width: 175px;
+    padding: 25px;
+    align-items: center;
+    display: inline-block;
+  }
+
+  /* ----- menu & button: ----- */
+  
+  .menu {
+    display: flex;
+    gap: 35px;
+    margin-right: 75px;
+  }
+  
+  .menuitem {
+    display: block;
+  }
+  
+  a {
+    color: #f9f6f6;
+    text-decoration: none;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: ingaserif;
+    background-color: #010101; 
+    border-color: #f9f6f6; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  /* ----- hjem: ----- */
+
+  .tekstoverskrift {
+    transform: translate(-60%, -125%);
+    position: absolute;
+    margin-left: 500px;
+    line-height: 75px;
+    color: #fcfafa;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .tekstbesøgos {
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 115px;
+    line-height: 75px;
+    display: block;
+    color: #fcfafa;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 85px;
+  }
+
+  .tekstviputter {
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 115px;
+    line-height: 75px;
+    display: block;
+    color: #fcfafa;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 85px;
+  }
+
+  .skål {
+    position: relative;
+    overflow: hidden;
+    margin-left: 115px;
+    height: 720px; 
+    width: 1200px;
+    background-color: #333; 
+    border-radius: 5px;
+  }
+
+  .lokation {
+    max-width: 500px;
+    padding: 85px;
+    border-radius: 90px;
+  }
+
+  .ølvideo {
+    max-width: 500px;
+    padding: 85px;
+    border-radius: 90px;
+  }
+
+  .besøg {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .putter {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* ----- profil: ----- */
+  
+  .teksthistorien {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 185px;
+    line-height: 35px;
+    display: block;
+    color: #fcfafa;
+    font-size: 20px;
+    font-weight: light;
+  }
+
+  .tekstmisogvis {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    line-height: 35px;
+    display: block;
+    color: #fcfafa;
+    font-size: 20px;
+    font-weight: light;
+  }
+
+  .tekstsøs {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 275px;
+    line-height: 50px;
+    display: block;
+    color: #fcfafa;
+    font-size: 25px;
+    font-weight: light;
+  }
+
+  .tekstlasse {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    line-height: 50px;
+    display: block;
+    color: #fcfafa;
+    font-size: 25px;
+    font-weight: light;
+  }
+
+  .kontaktpersoner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .historie {
+    max-height: 550px;
+    padding: 25px;
+    margin-left: 115px;
+    border-radius: 35px;
+  }
+
+  .ølvandret {
+    max-width: 1200px;
+    padding: 25px;
+    margin-left: -35px;
+    border-radius: 35px;
+  }
+
+  .søs {
+    max-width: 300px;
+    padding: 25px;
+    border-radius: 35px;
+  }
+
+  .lasse {
+    max-width: 300px;
+    padding: 25px;
+    border-radius: 35px;
+  }
+
+  .historien {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* ----- booking - 404 ----- */
+  
+  
+  /* ----- bryggeriet: ----- */
+
+  .tekstsamarbejdspartnere {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 160px;
+    line-height: 35px;
+    display: block;
+    color: #fcfafa;
+    font-size: 20px;
+    font-weight: light;
+  }
+
+  .tekstbryggeriet {
+    text-align: center;
+    justify-content: space-between;
+    line-height: 35px;
+    display: block;
+    color: #fcfafa;
+    font-size: 20px;
+    font-weight: light;
+  }
+
+  .samarbejdspartnere {
+    max-width: 275px;
+    padding: 10px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    border-radius: 65px;
+  }
+
+   /* ----- kontakt: ----- */
+
+  .tekstlokation {
+    padding-top: 115px;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 65px;
+    line-height: 75px;
+    display: block;
+    color: #fcfafa;
+    font-size: 65px;
+    font-weight: light;
+  }
+
+  .tekstbutik {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 115px;
+    line-height: 65px;
+    display: block;
+    color: #fcfafa;
+    font-size: 35px;
+    font-weight: light;
+  }
+
+  .forhandlere {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bar {
+    max-width: 400px;
+    padding: 10px;
+    margin-left: 125px;
+    border-radius: 15px;
+  }
+
+  .kort {
+    max-width: 400px;
+    padding: 10px;
+    margin-left: 125px;
+    border-radius: 15px;
+  }
+
+  .kollektion { 
+    max-width: 1200px;
+    padding: 35px;
+    border-radius: 45px;
+  }
+
+  .barkort {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lokation {
+    display: flex;
+    flex-direction: row;
+  }
+    /* ----- shop - 404 ----- */
+
+
+   /* ----- For mobile phones: ----- */
+
+  @media only screen and (max-width:880px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+
+    /* ----- For mobile phones: ----- */
+
+  @media screen and (max-width: 768px) {
+    .menu, .main, .right {
+      width: 100%;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    #menu-icon::before {
+        content: '\2630'; /* Hamburger-ikon (Unicode) */
+        font-size: 24px;
+    }
+}
+
+/* ------- Page footer and its sections ------- */
+
+.page_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 37.5rem) {
+
+    .page_footer {
+        flex-direction: row;
+        height: 12.5rem;
+    }
+
+    .page_footer_section {
+        height: 8.75rem;
+    }    
+
+    .quality_flexbox {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .offer {
+        font-size: 1.7rem;
+        padding-top: 13px;
+    }
+}
+
+@media only screen and (min-width: 53.438rem) {
+    .ingredients_section,
+    .quality_section {
+        width: 50%;
+    }
+
+    .page_navigation {
+        justify-content: flex-end;
+    }
+    .navigation_element {
+     margin-left: 15px;
+    }
+
+    .quality_flexbox {
+        justify-content: space-between;
+    }
+}
